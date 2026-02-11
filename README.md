@@ -1,30 +1,32 @@
 ## OnePlus Pad 3 Porting Status
 
-| Feature              | Status |
-| :------------------- | :----: |
-| **CPU**.             | ✅     |
-| **Internal Storage** | ✅     |
-| **Display**[^1]      | ✅     |
-| **USB Host Mode**    | ✅     |
-| **USB Device Mode**  | ✅     |
-| **Side Buttons**     | ✅     |
-| **Flashlight**       | ✅     |
-| **Charging**[^2]     | ⚠️     |
-| **WLAN**             | ❔     |
-| **Bluetooth**        | ❔     |
-| **Touchscreen**      | ❔     |
-| **Battery**          | ❔     |
-| **Microphone**       | ❔     |
-| **Speakers**[^3]     | ❔     |
-| **GPU**[^4]          | ❌     |
-| **USB PD**           | ❌     |
-| **Camera**           | ❌     |
-| **Accel. Sensor**    | ❌     |
-| **Compass Sensor**   | ❌     |
-| **Gyroscope Sensor** | ❌     |
-| **Temp. Sensor**     | ❌     |
-| **GPS**              | ❌     |
-| **Haptics**          | N/A    |
+| Feature                    | Status |
+| :------------------------- | :----: |
+| **CPU**.                   | ✅     |
+| **Internal Storage**       | ✅     |
+| **Display**[^1]            | ✅     |
+| **USB Host Mode**          | ✅     |
+| **USB Device Mode**        | ✅     |
+| **Side Buttons**           | ✅     |
+| **Flashlight**             | ✅     |
+| **Charging**[^2]           | ⚠️     |
+| **WLAN**                   | ❔     |
+| **Bluetooth**              | ❔     |
+| **Touchscreen**            | ❔     |
+| **Battery**                | ❔     |
+| **Microphone**             | ❔     |
+| **Speakers**[^3]           | ❔     |
+| **Oneplus Smart Keyboard** | ❔     |
+| **Oneplus Stylo**          | ❌     |
+| **GPU**[^4]                | ❌     |
+| **USB PD**                 | ❌     |
+| **Camera**                 | ❌     |
+| **Accel. Sensor**          | ❌     |
+| **Compass Sensor**         | ❌     |
+| **Gyroscope Sensor**       | ❌     |
+| **Temp. Sensor**           | ❌     |
+| **GPS**                    | ❌     |
+| **Haptics**                | N/A    |
 
 ## To-do:
 > [!NOTE]
