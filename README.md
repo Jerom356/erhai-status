@@ -24,9 +24,19 @@
 | **Gyroscope Sensor** | ❌     |
 | **Temp. Sensor**     | ❌     |
 | **GPS**              | ❌     |
+| **Haptics**          | N/A    |
 
+## To-do:
+> [!NOTE]
+> Sorted by: priority (high to low)
 
-### Footnotes
+- [ ] Test
+- [ ] Display (native)
+- [ ] Camera
+- [ ] Charger
+- [ ] GPU (once upstreamed)
+
+#### Footnotes
 
 [^1]: Utilises simple frambuffer (UEFI FB), not native (yet)
 [^2]: No driver for sc8547a
