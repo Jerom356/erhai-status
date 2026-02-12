@@ -2,24 +2,25 @@
 
 | Feature                    | Status |
 | :------------------------- | :----: |
-| **CPU**.                   | ✅     |
+| **CPU**                    | ✅     |
 | **Internal Storage**       | ✅     |
-| **Display**[^1]            | ✅     |
+| **Display**[^1][^2]        | ✅     |
 | **USB Host Mode**          | ✅     |
 | **USB Device Mode**        | ✅     |
 | **Side Buttons**           | ✅     |
 | **Flashlight**             | ✅     |
-| **Charging**[^2]           | ⚠️     |
+| **Charging**[^3]           | ⚠️     |
 | **WLAN**                   | ❔     |
 | **Bluetooth**              | ❔     |
 | **Touchscreen**            | ❔     |
 | **Battery**                | ❔     |
 | **Microphone**             | ❔     |
-| **Speakers**[^3]           | ❔     |
+| **Speakers**[^4][^5]       | ❔     |
 | **Oneplus Smart Keyboard** | ❔     |
-| **Oneplus Stylo**          | ❌     |
-| **GPU**[^4]                | ❌     |
+| **Oneplus Stylo**[^6]      | ❌     |
+| **GPU**[^7]                | ❌     |
 | **USB PD**                 | ❌     |
+| **Display Port**[^8]       | ❌     |
 | **Camera**                 | ❌     |
 | **Accel. Sensor**          | ❌     |
 | **Compass Sensor**         | ❌     |
@@ -32,7 +33,7 @@
 > [!NOTE]
 > Sorted by: priority (high to low)
 
-- [ ] Test
+- [ ] Test everything
 - [ ] Display (native)
 - [ ] Camera
 - [ ] Charger
@@ -41,8 +42,12 @@
 #### Footnotes
 
 [^1]: Utilises simple frambuffer (UEFI FB), not native (yet)
-[^2]: No driver for sc8547a
-[^3]: Uses two chips: aw88261 and sia9196
-[^4]: Requires mainline support
+[^2]: Requires `mdss` to be upstreamed
+[^3]: No driver for sc8547a
+[^4]: Uses two chips: `aw88261` and `sia9196` (unconfirmed)
+[^5]: Interestingly, there's only 6 nodes each for both `aw88261` and `sia9196` while Oneplus advertised 8 speakers
+[^6]: Needs touchpanel integration
+[^7]: Requires mainline support
+[^8]: Requires `DP` to be upstreamed
 
 ---
