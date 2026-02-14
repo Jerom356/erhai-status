@@ -44,8 +44,8 @@
 [^1]: Utilises simple frambuffer (UEFI FB), not native (yet)
 [^2]: Requires `mdss` to be upstreamed
 [^3]: No driver for sc8547a
-[^4]: Uses two chips: `aw88261` and `sia9196` (unconfirmed)
-[^5]: Interestingly, there's only 6 nodes each for both `aw88261` and `sia9196` while Oneplus advertised 8 speakers
+[^4]: Will get better support if it was `aw88261` (All I know is that it's aw882xx)
+[^5]: Interestingly, there are only 6 nodes (in dt) for `aw882xx` while Oneplus advertised 8 speakers
 [^6]: Needs touchpanel integration
 [^7]: Requires mainline support
 [^8]: Requires `DP` to be upstreamed
