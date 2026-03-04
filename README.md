@@ -34,7 +34,7 @@
 > Sorted by: priority (high to low)
 
 - [ ] Test everything
-- [ ] Display (native)
+- [ ] Display (native)[^9]
 - [ ] Camera
 - [ ] Charger
 - [ ] GPU (once upstreamed)
@@ -49,5 +49,5 @@
 [^6]: Needs touchpanel integration
 [^7]: Requires mainline support
 [^8]: Requires `DP` to be upstreamed
-
+[^9]: Driver is present, but untested[^2]
 ---
